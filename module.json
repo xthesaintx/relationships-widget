@@ -2,7 +2,7 @@
   "id": "relationships-widget",
   "title": "Relationships Widget",
   "description": "A widget for tracking actor relationships with hearts and skulls.",
-  "version": "0.1.0",
+  "version": "#{VERSION}#",
   "scripts": [
     "scripts/widgets/RelationshipsWidget.js"
   ],
@@ -23,7 +23,7 @@
     "minimum": "13",
     "verified": "13"
   },
-  "url": "https://github.com/your-repo/relationships-widget",
+  "url": "#{URL}#",
   "readme": "",
   "authors": [
     {
@@ -35,6 +35,6 @@
   "relationships": {
     "systems": []
   },
-  "manifest": "https://github.com/your-repo/relationships-widget/releases/latest/download/module.json",
-  "download": "https://github.com/your-repo/relationships-widget/releases/latest/download/relationships-widget.zip"
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#"
 }
