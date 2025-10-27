@@ -1,0 +1,11 @@
+{
+  "relationships-widget": {
+    "addActor": "Add Actor",
+    "selectActor": "Select Actor:",
+    "remove": "Remove",
+    "increase": "Increase",
+    "decrease": "Decrease",
+    "noActors": "No available actors to add.",
+    "title": "Relationships Widget"
+  }
+}

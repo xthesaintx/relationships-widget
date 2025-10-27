@@ -1,0 +1,124 @@
+/* Relationships Widget custom styles */
+.relationship-rowR {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 0.5em;
+  border-radius: 12px;
+  background: #fff;
+  margin-bottom: 0.5em;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.relationship-actorR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 70px;
+  margin-right: 1em;
+}
+.relationship-actor-imageR {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #bdbdbd;
+  margin-bottom: 0.25em;
+  background: #f5f5f5;
+}
+.relationship-actor-nameR {
+  font-size: 1em;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  word-break: break-word;
+  max-width: 70px;
+}
+.relationship-iconsR {
+  display: flex;
+  margin-left: auto;
+  margin-right: 1em;
+  align-items: center;
+}
+.relationship-iconsGridR {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25em;
+}
+.relationship-iconsColR {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+}
+.relationship-iconR {
+  font-size: 1.5em;
+  display: block;
+}
+.relationship-decreaseR, .relationship-increaseR, .relationship-removeR {
+  margin-left: 0.25em;
+  font-size: 1.2em;
+  border: 1px solid #bdbdbd;
+  background: #f5f5f5;
+  cursor: pointer;
+  color: #444;
+  border-radius: 6px;
+  padding: 0.15em 0.5em;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+.relationship-decreaseR:hover, .relationship-increaseR:hover, .relationship-removeR:hover {
+  color: #fff;
+  background: #d32f2f;
+  border-color: #d32f2f;
+}
+.relationships-widget {
+  font-family: var(--cc-font-body, 'Segoe UI', Arial, sans-serif);
+  background: var(--cc-card-bg, #f8f8f8);
+  border-radius: 8px;
+  padding: 12px;
+}
+.relationships-widget .widget-controls {
+  margin-bottom: 12px;
+}
+.relationships-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.relationship-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 6px 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+.relationship-row .actor-name {
+  font-weight: bold;
+  min-width: 120px;
+}
+.relationship-row .relationship-icons {
+  font-size: 1.3em;
+  min-width: 60px;
+  text-align: center;
+}
+.relationship-row button {
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.relationship-row button:hover {
+  background: #ffe0e0;
+}
+.relationship-row .remove-actor {
+  color: #b00;
+  background: #fff0f0;
+  border-color: #fbb;
+}
+.relationship-row .remove-actor:hover {
+  background: #ffd6d6;
+}
