@@ -3,9 +3,7 @@
   "title": "Relationships Widget",
   "description": "A widget for tracking actor relationships with hearts and skulls.",
   "version": "#{VERSION}#",
-  "scripts": [
-    "scripts/widgets/RelationshipsWidget.js"
-  ],
+  "scripts": [],
   "esmodules": [
     "scripts/main.js"
   ],
@@ -38,3 +36,4 @@
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#"
 }
+
